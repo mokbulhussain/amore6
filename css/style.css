@@ -1,0 +1,1199 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+
+/* CSS Index 
+-----------------------------------
+1. Font css
+2. Theme default css
+3. Header
+4. Header Banner
+5. Feature
+6. LiveChat
+7. Client
+8. Pricing
+9. News Letter
+10. Footer
+
+*/
+
+
+/* 1. Font css */
+
+@font-face {
+    font-family: CarmenRegular;
+    src: url(../fonts/CarmenSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: CarmenSemiBold;
+    src: url(../fonts/CarmenSans-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: carmenBold;
+    src: url(../fonts/CarmenSans-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: carmenRegular;
+    src: url(../fonts/CarmenSans-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: GilroyRegular;
+    src: url(../fonts/Gilroy-Regular.otf);
+  }
+
+  @font-face {
+    font-family: GilroyMedium;
+    src: url(../fonts/Gilroy-Medium.otf);
+  }
+
+  @font-face {
+    font-family: GilroyLight;
+    src: url(../fonts/Gilroy-Light.otf);
+  }
+
+@font-face {
+    font-family: GilroySemiBold;
+    src: url(../fonts/Gilroy-SemiBold.otf);
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url(../fonts/Gilroy-Bold.otf);
+}
+@font-face {
+    font-family: GilroyExtraBold;
+    src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+
+
+
+
+/* 2. Theme default css */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.fix {
+    overflow: hidden
+}
+
+a,
+.button:hover {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+    color: #2B96CC;
+    text-decoration: none;
+}
+
+a,
+button {
+    color: #1696e7;
+    outline: medium none;
+}
+
+button:focus {
+    outline: 0 none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #333333;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+p {
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+
+label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+
+*::placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 44px;
+    font-family: 'GilroyBold';
+    color: #3B406C;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #3B406C;
+    font-family: 'GilroyRegular';
+    line-height: 26px;
+    margin-top: -6px;
+}
+
+
+/* 3. Header*/
+
+header {
+    background-image: url(../img/bg/bg.jpg);
+    background-size: cover;
+    height: 876px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.nav-menu {
+    width: 100%;
+    align-items: center;
+}
+
+.navbar-top {
+   padding-top: 30px;
+}
+
+.navbar-brand img {
+    width: 162px;
+    height: 26px;
+}
+
+.nav-menu li {
+    margin-left: 26px;
+}
+
+.nav-menu li a {
+    color: #3B406C !important;
+    font-size: 16px;
+    font-family: GilroyRegular;
+    line-height: 26px;
+}
+
+.nav-menu li a:hover {
+    font-weight: bold;
+}
+
+.nav-menu-right li a {
+    color: #ffffff;
+    font-family: GilroySemiBold;
+    font-size: 14px;
+    padding: 0px;
+    margin-left: 24px;
+    line-height: 24px;
+}
+.nav-menu-right li.register{
+ 
+    text-align: center;
+
+}
+
+.nav-menu-right li.register a {
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 10px 0px;
+    font-size: 14px;
+    line-height: 24px;
+    width: 100px;
+    background: #F3B050;
+    font-family: 'GilroyBold';
+    
+}
+
+.nav-menu-right li.login a:hover {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 4px;
+    padding-top: 5px;
+    color: #ffffff !important
+}
+
+.nav-menu-right li.register a:hover {
+    box-shadow: 0px 20px 40px 0 rgb(72 10 45 / 20%);
+
+    color: #ffffff !important
+}
+
+
+/* 4. Header Banner */
+
+.banner-content span {
+    background: #ffffff;
+    padding: 10px 30px;
+    color: #F669D6;
+    border-radius: 10px;
+ 
+}
+
+.banner-content{
+    margin-top: 150px;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    color: #3B406C;
+    font-family: GilroyExtraBold;
+    line-height: 70px;
+    margin-top: 30px;
+}
+
+.banner-content p {
+    color: #3B406C;
+    font-size: 16px;
+    font-family: GilroyRegular;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+.banner-content a img{
+    width: 129px;
+    height: 44px;
+}
+
+.banner-content a img.ios {
+    margin-left: 30px;
+}
+
+.banner-content a.success-story{
+    background: transparent;
+    text-decoration: underline;
+    margin-left: -20px;
+}
+
+.banner-content a.success-story:hover{
+
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.banner-colum {
+    z-index: 1;
+}
+
+.banner-img img {
+    margin-top: 53px;
+}
+
+
+.banner-content a:hover {
+    box-shadow: 0px 20px 40px 0 rgb(72 10 45 / 10%);
+}
+
+
+
+/* 5. Feature css */
+
+
+/* 5. How it work css */
+section.feature {
+    margin-top: 150px;
+    padding-bottom: 100px;
+   
+}
+
+.feature-area {
+    background-image: url(../img/feature/bg.png);
+    background-size: contain;
+    height: 296px;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+
+.feature-heading {
+    text-align: center;
+}
+.feature-heading span {
+    font-size: 16px;
+    font-family: 'GilroySemiBold';
+    line-height: 26px;
+    color: #401D7B;
+    padding: 10px 30px;
+    background: #F3ECFF;
+    border-radius: 10px;
+}
+
+
+
+.feature-heading h2 {
+    color: #3B406C;
+    font-size: 44px;
+    line-height: 54px;
+    font-family: GilroyBold;
+    margin-top: 24px;
+}
+
+.feature-row {
+    margin-top: 50px;
+}
+
+.feature-list {
+    text-align: center;
+}
+.feature-list:hover {
+border: none;
+}
+
+.feature-list img {
+    width: 100%;
+    max-width: 68px;
+    height: 68px;
+}
+
+.feature-list h3 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 24px;
+    color: #3B406C;
+    font-family: 'GilroyBold';
+}
+
+.feature-list p {
+    color: #3B406C;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'GilroyRegular';
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* 5. App Work css */
+.app-work {
+    background-image: url(../img/feature/app_background.jpg);
+    background-size: cover;
+    height: 619px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+ 
+}
+.app-work-container {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.app-work-content-colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-work-img {
+    padding-right: 120px;
+}
+
+.app-work-img img {
+    width: 100%;
+}
+
+.app-work-content {
+    margin-left: 16px;
+}
+
+.app-work-content h2 {
+    color: #3B406C;
+    font-size: 44px;
+    line-height: 54px;
+    font-family: 'GilroyBold';
+}
+
+.app-work-content p {
+    color: #3B406C;
+    font-size: 16px;
+    font-family: 'GilroyRegular';
+    line-height: 26px;
+    margin-bottom: 44px;
+    margin-top: 20px;
+}
+
+.app-work-content a {
+
+    font-size: 16px;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-family: 'GilroySemiBold';
+    color: #3B406C;
+    background: #F3B050;
+    border-radius: 6px;
+}
+
+.relationship-content a:hover {
+    box-shadow: 0px 20px 40px 0 rgb(72 10 45 / 10%);
+}
+
+
+
+/* 7. Client */
+section.client-section {
+  margin-top: 150px;
+  background-color: #ffffff;
+}
+.client-heading {
+    text-align: center;
+}
+.client-heading span {
+    font-size: 16px;
+    font-family: 'GilroySemiBold';
+    line-height: 26px;
+    color: #401D7B;
+    padding: 10px 30px;
+    background: #F3ECFF;
+    border-radius: 10px;
+}
+
+.client-heading h2 {
+    font-size: 44px;
+    color: #3B406C;
+    font-family: 'GilroyBold';
+    margin-bottom: -10px;
+    line-height: 54px;
+    margin-top: 18px;
+}
+.slick-slider{
+    background: #ffffff;
+    padding-bottom: 50px;
+}
+.slick-track {
+    padding-bottom: 30px;
+}
+.client-content {
+    background: #ffffff;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background: #FFFFFF;
+
+border-radius: 8px;
+}
+.client-content:hover {
+   /* box-shadow: -10px 80px 160px 0 rgb(1 47 16 / 8%); */
+   box-shadow: 0px 10px 20px 0 rgb(1 47 16 / 8%);
+}
+
+
+
+.client-img img{
+    width: 190px;
+    height: 400px;
+    border-radius: 6px;
+}
+
+
+
+.client-description {padding: 65px 30px;}
+.client-description .comma {
+    width: 39px;
+    height: 33px;
+}
+
+.client-description img.start {
+    width: 18px;
+    height: 16px;
+    display: inline-block;
+}
+
+.client-img {
+    position: relative;
+}
+
+.client-img:before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    width: 256px;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(101, 70, 203, 0.54) -2.54%, rgba(151, 78, 245, 0.54) 98.71%);
+border-radius: 6px;
+}
+
+.slick-center .client-img:before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    width: 256px;
+    height: 400px;
+    background: transparent;
+border-radius: 6px;
+}
+
+.slick-center{
+    box-shadow: 35px 100px 152px rgba(26, 58, 119, 0.04);
+    background: #FFFFFF;
+box-shadow: 35px 100px 152px rgba(26, 58, 119, 0.04);
+border-radius: 8px;
+}
+
+.slick-center img {
+    width: 256px;
+    height: 400px;
+    border-radius: 0px;
+}
+
+.slick-center .client-img:before{
+    background-color:transparent;
+}
+
+.client-content[data-slick-index="-1"] .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.client-content h2 {
+    font-size: 20px;
+    color: #3B406C;
+    font-family: 'GilroyBold';
+    margin-top: 20px;
+    line-height:30px;
+}
+.client-content h3 {
+    font-size: 16px;
+    color: #3B406C;
+    font-family: 'GilroyRegular';
+    margin-top: 4px;
+    line-height: 26px;
+}
+.client-content ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.client-content ul li img {
+    width: 16px;
+}
+.client-content ul {
+    margin-left: -10px;
+}
+.client-content p {
+    font-size: 16px;
+    color: #3B406C;
+    font-family: 'GilroyRegular';
+    margin-top: 10px;
+    line-height: 26px;
+}
+.slick-prev {
+    left: -10px;
+    z-index: 1;
+}
+.slick-next {
+    right: 15px;
+    z-index: 1;
+}
+.slick-next:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    background: #FFFFFF;
+    padding: 18px 22px;
+    border-radius: 50%;
+    color: #52527c;
+    box-shadow: 1px 1px 3px #cbcbcb;
+}
+.slick-prev:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f104";
+    background: #FFFFFF;
+    padding: 18px 22px;
+    border-radius: 50%;
+    color: #52527c;
+    box-shadow: 1px 1px 3px #cbcbcb;
+}
+
+
+
+
+
+/* 5. Feature css */
+
+section.relationship {
+    background: #ffffff;
+   margin-top: 110px;
+}
+
+.relationship-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.how-it-div {
+    position: relative;
+  }
+  .how-it-div span {
+    background: linear-gradient(242.62deg, #FFFFFF -10.06%, #FFF7FA 43.53%, #FFC5D1 100.58%);
+    border-radius: 16px;
+    height: 67px;
+    width: 69px;
+  }
+  .how-it-div span {
+    background: linear-gradient(242.62deg, #FFFFFF -10.06%, #FFF7FA 43.53%, #FFC5D1 100.58%);
+    border-radius: 16px;
+    width: 69px;
+    height: 67px;
+    position: absolute;
+    top: -28px;
+    left: 0px;
+    z-index: 0;
+  }
+  .how-it-div h4 {
+    z-index: 999999;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    font-family: ;
+  }
+
+.relationship-colum {
+    padding-right: 100px;
+}
+
+.relationship-img img {
+    width: 100%;
+}
+
+.relationship-content {
+    padding-left: 14px;
+}
+
+.relationship-content h2 {
+    color: #3B406C;
+    font-size: 44px;
+    font-family: 'AVENIRLIGHT';
+    line-height: 54px;
+    margin-top: 60px;
+}
+
+.relationship-content p {
+    color: #3B406C;
+    font-size: 16px;
+    font-family: 'AVENIRROMAN';
+    line-height: 26px;
+    margin-bottom: 44px;
+    margin-top: 20px;
+}
+
+.relationship-content a {
+
+    font-size: 16px;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-family: PoppinsSemiBold;
+    color: #ffffff;
+    background: linear-gradient(180deg, #F769D6 0%, #BE349E 100%);
+    border-radius: 30px;
+}
+
+.relationship-content a:hover {
+    box-shadow: 0px 20px 40px 0 rgb(72 10 45 / 10%);
+}
+
+
+
+
+
+/* 6. pricing */
+
+.price {
+background-color: #F7F9FF;
+padding:60px 0px;
+}
+
+.price-heading {
+    text-align: center;
+}
+
+.price-heading span {
+    color: #3B406C;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    font-family: 'GilroySemiBold';
+    background: #F3ECFF;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.price-heading h2 {
+    color: #3B406C;
+    font-size: 44px;
+    line-height: 54px;
+    font-family: 'GilroyBold';
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.price-area{
+   background-color: #FFFFFF; 
+   border-radius: 16px;
+}
+
+
+.price-list {
+    text-align: center;
+    padding: 40px 40px 60px 40px;
+    border-radius: 14px;
+    border-radius: 30px;
+
+}
+
+.price-list:hover {
+    background: #FFFFFF;
+
+box-shadow: 35px 100px 152px rgba(26, 58, 119, 0.08);
+border-radius: 16px;
+    transition: .5s;
+    margin-top: -15px;
+    
+
+}
+.price-list:hover .price-list-top{
+        background: red;
+        background: linear-gradient(97.06deg, #2E407E -11.18%, #43147A 105.62%);
+        border-radius: 16px;
+}
+
+
+
+
+.price-list-top h3 {
+    font-size: 30px;
+    color: #3B406C;
+    line-height: 40px;
+    font-family: 'GilroyBold';
+}
+
+.price-list-top h4 {
+    color: #3B406C;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'GilroyBold';
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.price-list-top h4 span {
+    font-size: 16px;
+    color: #3B406C;
+    font-family: 'GilroyRegular';
+    line-height: 26px;
+}
+
+.price-list:hover .price-list-top h3{
+    color: #ffffff;
+}
+
+.price-list:hover .price-list-top h4{
+    color: #ffffff;
+}
+
+.price-list:hover .price-list-top h4 span{
+    color: #ffffff;
+}
+
+
+
+.price-list ul {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.price-list ul li {
+    margin-top: 16px;
+}
+
+.price-list ul li span {
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 10px;
+    font-family: 'AVENIRROMAN';
+    color: #3B406C;
+}
+
+
+.price-list p {
+    margin-top: 50px;
+}
+
+.price-list p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #3B406C;
+    font-family: 'GilroySemiBold';
+    line-height: 26px;
+    /* background: transparent; */
+padding: 17px 44px;
+border-radius: 6px;
+border: 1px solid #FB8DC7 ;
+}
+
+.price-list:hover .price-list p a{
+    background-color: red;
+}
+
+
+/* 6. How it work */
+section#social-work {
+    margin-top: 130px;
+}
+
+.social-work-area {
+    background-image: url(../img/feature/social_work.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 740px;
+    width: 100%;
+    background-position: left;
+}
+
+.social-work-row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social-work-content {
+    padding-left: 120px;
+}
+
+.social-work-content h2 {
+    color: #3B406C;
+    font-size: 44px;
+  font-family: 'AvenirLight';
+    line-height: 54px;
+    margin-top: 14px;
+}
+
+.social-work-content p {
+    color: #3B406C;
+    font-size: 16px;
+    font-family: PoppinsRegular;
+    line-height: 26px;
+    margin-bottom: 44px;
+    margin-top: 20px;
+    padding-right: 85px;
+}
+
+.social-work-content a {
+    font-size: 16px;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-family: 'GilroySemiBold';
+    color: #ffffff;
+    background: linear-gradient(180deg, #FFAD32 0%, #FF6F44 100%);
+    border-radius: 16px;
+    line-height: 26px;
+}
+
+.social-work-content a:hover {
+    box-shadow: 0px 20px 40px 0 rgb(72 10 45 / 10%);
+}
+
+
+
+/* 9. Download app */
+section.download-app {
+    margin-top: 130px;
+}
+
+.download-app-area {
+    background: linear-gradient(233.75deg, #FFFFFF 17.91%, rgba(255, 207, 211, 0.51) 43.61%, rgba(252, 212, 243, 0.6) 64.58%, rgba(196, 253, 255, 0.81) 100%);
+    border-radius: 16px;
+    padding: 80px 216px;
+    position: relative;
+}
+
+
+img.download-mobile {
+    position: absolute;
+    top: -130px;
+    right: 150px;
+}
+
+.download-app-content h2 {
+    font-size: 44px;
+    color: #3B406C;
+    line-height: 54px;
+    font-family: 'GilroyBold';
+}
+
+.download-app-content p {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'GilroyRegular';
+    margin-bottom: 30px;
+}
+
+.download-app-content a {
+    margin-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 10. Footer */
+
+footer {
+    background-color: #3B406C;
+    padding: 50px 0px;
+    margin-top: 220px;
+    position: relative;
+}
+
+.newsletter-area {
+    margin-top: -159px;
+    padding: 0px 100px;
+    text-align: center;
+    background: linear-gradient(221.86deg, #F76F8C -42.77%, #D01760 39.87%, #910094 96.42%);
+    border-radius: 30px;
+}
+
+
+
+
+.footer-container {
+    margin-top: 50px;
+}
+
+.footer-part1 img {
+    width: 162px;
+    height: 30px;
+}
+
+.footer-part1 p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'PoppinsRegular';
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.footer-part1 ul {
+    margin-top: 30px;
+}
+
+.footer-part1 ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-part1 ul li a {
+    padding: 10px 14px;
+    border-radius: 52px;
+}
+
+.footer-part1 ul li a i {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.footer-part1 ul li a:hover i {
+    color: #d448b4;
+}
+
+.footer-part h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'PoppinsSemiBold';
+    line-height: 24px;
+}
+
+.footer-part ul li {
+    margin-top: 10px;
+}
+
+.footer-part ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'PoppinsRegular';
+    line-height: 24px;
+}
+
+.footer-part ul li a:hover {
+    font-weight: 900;
+}
+
+.footer-part4 p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'PoppinsRegular';
+    line-height: 24px;
+}
+
+.footer-subscribe {
+    width: 256px;
+    height: 47px;
+    background: #F2FCFB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 82px;
+    margin-top: 26px;
+}
+
+.footer-subscribe form input {
+    border: none;
+    background: transparent;
+    height: 30px;
+}
+
+.footer-subscribe form button {
+    border: none;
+    padding: 5px 10px;
+    background: transparent;
+    color: #FB8DC7;
+}
+
+.footer-subscribe form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background: #ffffff;
+}

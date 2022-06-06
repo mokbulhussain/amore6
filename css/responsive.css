@@ -1,0 +1,288 @@
+@media only screen and (max-width: 1199.98px) {
+    header {
+        height: 727px;
+    }
+
+    .banner-img img {
+        margin-top: 120px;
+        width: 100%;
+    }
+
+    .download-app-area {
+        padding: 80px 60px;
+    }
+
+    img.download-mobile {
+        right: -20px;
+    }
+}
+
+
+@media only screen and (max-width: 991.98px) {
+    header {
+        height: 620px;
+    }
+    div#navbarSupportedContent {
+        background: #ffffff;
+        position: absolute;
+        width: 100%;
+        top: 92px;
+        left: 0px;
+        padding: 10px 0px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../img/icon/menu.svg);
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler-icon {
+
+      	border-radius: 2px;
+  	}
+    .nav-menu {
+      	align-items: left;
+      	display: inline;
+    }
+    .nav-menu-right li a {
+		margin-left: 0px;
+    }
+    .navbar-toggler-icon {
+
+      	border-radius: 2px;
+  	}
+    .nav-menu {
+      	align-items: left;
+      	display: inline;
+    }
+    .nav-menu-right li a {
+		margin-left: 12px;
+    }
+    .nav-menu-right li.register a {
+        margin-left: -20px;
+    }
+
+    .banner-content {
+        margin-top: 60px;
+    }
+    .banner-content h1 {
+        font-size: 44px;
+        margin-top: 30px;
+    }
+
+    .banner-content a img.ios {
+        margin-left: 16px;
+    }
+    .banner-content a img {
+        width: 126px;
+        height: 44px;
+    }
+
+    .banner-content p {
+        margin-bottom: 30px;
+    }
+
+    .banner-img img {
+        margin-top: 153px;
+    }
+
+    
+
+
+    .app-work-img {
+        padding-right: 0px;
+    }
+
+    .app-work-content h2 {
+        font-size: 36px;
+    }
+
+    .app-work {
+   
+        height: 380px;
+       
+    }
+
+    .slick-center img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .client-img:before {
+        position: absolute;
+        content: '';
+        top: 0px;
+        left: 0px;
+        width: 256px;
+        height: 400px;
+        background: transparent;
+        border-radius: 6px;
+    }
+    .client-description {
+        padding: 37px 17px;
+    }
+
+    .client-img img {
+        height: 300px;
+        border-radius: 6px;
+    }
+
+    .price-list {
+        padding: 40px 0px 60px 0px;
+    }
+    .download-app-area {
+        padding: 80px 30px;
+    }
+
+    .download-app-content a img{
+       width:120px
+    }
+
+    img.download-mobile {
+        right: -30px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 767.98px) {
+    header {
+        height: 1151px;
+    }
+    .feature-list {
+        margin-top: 30px;
+    }
+
+    .app-work {
+        margin-top: 350px;
+    }
+    .app-work-content {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    section.client-section {
+        margin-top: 400px;
+    }
+
+
+    .price-area {
+        background-color: transparent;
+        border-radius: 16px;
+    }
+
+    .price-list {
+
+        margin-top: 30px;
+        background: #ffffff;
+    }
+
+    .download-app-area {
+        padding: 80px 0px;
+    }
+
+    img.download-mobile {
+        top: 277px;
+        right: 0px;
+    }
+
+    footer {
+        margin-top: 500px;
+
+    }
+}
+
+
+@media only screen and (max-width: 575.98px) {
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .feature-heading h2 {
+        font-size: 28px;
+       
+    }
+    .app-work {
+        margin-top: 420px;
+    }
+
+    .app-work-content h2 {
+        font-size: 28px;
+    }
+
+    section.client-section {
+        margin-top: 250px;
+    }
+
+    .client-img img {
+        height: 100%;
+        width: 100%;
+    }
+    .client-heading h2 {
+        font-size: 27px;
+    
+    }
+    .price-list{
+        box-shadow: 35px 100px 152px rgb(26 58 119 / 8%) !important;
+    }
+
+    .price-heading h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    img.download-mobile {
+        top: 373px;
+        right: 0px;
+        text-align: center;
+        width: 350px;
+    }
+    section.feature {
+        margin-top: 130px;
+    }
+    .app-work-content {
+        text-align: center;
+    }
+    .client-description {
+        text-align: center;
+    }
+    .download-app-content {
+        text-align: center;
+    }
+    .footer-part h3 {
+      
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .footer-part {
+        text-align: center;
+    }
+    .footer-subscribe {
+    
+        margin: 0px auto;
+    }
+
+    .price-heading h2 {
+        font-size: 28px;
+         line-height: 38px;
+    }
+    .price-list-top h3 {
+        font-size: 24px;
+        line-height: 34px; 
+    }
+    .download-app-content h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .footer-part1 {
+        text-align: center;
+    }
+}
